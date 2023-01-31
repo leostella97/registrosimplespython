@@ -3,7 +3,7 @@ idade = input("Digite a sua idade: ")
 email = input("Digite seu endereço de e-mail: ")
 
 print("Os dados estão corretos?", nome, idade, email, sep="\n")
-resposta = input("Escreva sua resposta com S para SIM e N para NÃO: ")
+resposta = input("Escreva sua resposta com S para SIM e N para NÃO: \n")
 
 if (resposta == "S" or resposta == "s"):
     print("Informações cadastradas com sucesso!")
